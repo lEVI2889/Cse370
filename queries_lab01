@@ -51,3 +51,5 @@ select upper(name), cgpa, lower(major) from Lab_Grades where cgpa<4 and major = 
 select upper(name), cgpa, lower(major) from Lab_Grades where cgpa<4 and major = "CS";
 
 select upper(name), cgpa, lower(major) from Lab_Grades where project_marks between 17 and 20;
+
+select * from Lab_Grades where name like 'a%';
