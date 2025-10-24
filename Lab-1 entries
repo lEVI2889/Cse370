@@ -1,0 +1,32 @@
+CREATE TABLE Developers 
+( 
+  member_id int, name varchar(50), 
+  email varchar(30), 
+  influence_count char(6), 
+  Joining_date date, 
+  multiplier int 
+); 
+
+INSERT INTO Lab_Grades values 
+('s001', 'Abir', 'CS', '1', 10, 18.5, 3.91, '2018-09-15'), 
+('s002', 'Nafis', 'CSE', '1', 12, 20, 3.86, '2018-08-15'), 
+('s003', 'Tasneem', 'CS', '1', 8, 18, 3.57, '2018-09-18'), 
+('s004', 'Nahid', 'ECE', '2', 7, 16.5, 3.25, '2018-08-20'), 
+('s005', 'Arafat', 'CS', '2', 11, 20, 4, '2018-09-13'), 
+('s006', 'Tasneem', 'CSE', '1', 12, 17.5, 3.7, '2018-08-15'), 
+('s007', 'Muhtadi', 'ECE', '1', 10, 19, 3.67, '2018-09-16'), 
+('S008', 'Farhana', 'CSE', '2', 6, 15, 2.67, '2018-08-16'), 
+('s009', 'Naima', 'CSE', '2', 12, 20, 3.7, '2018-08-14'); 
+
+INSERT INTO Developers values 
+(1, 'Taylor Otwell', 'otwell@laravel.com', 739360, '2020-6-10', 10), 
+(2, 'Ryan Dahl', 'ryan@nodejs.org', 633632, '2020-04-22', 10), 
+(3, 'Brendan Eich', 'eich@javascript.com', 939570, '2020-05-07' ,8), 
+(4, 'Evan You', 'you@vuejs.org', 982630, '2020-06-11', 7), 
+(5, 'Rasmus Lerdorf', 'lerdorf@php.net', 937927, '2020-06-03', 8), 
+(6, 'Guido van Rossum', 'guido@python.org', 968827, '2020-07-18', 19), 
+(7, 'Adrian Holovaty', 'adrian@djangoproject.com', 570724, '2020-05-07', 5), 
+(8, 'Simon Willison', 'simon@djangoproject.com', 864615, '2020-04-30', 4), 
+(9, 'James Gosling', 'james@java.com', 719491, '2020-05-18', 5), 
+(10, 'Rod Johnson', 'rod@spring.io', 601744, '2020-05-18', 7), 
+(11, 'Satoshi Nakamoto', 'nakamoto@blockchain.com', 630488, '2020-05-10', 10);
